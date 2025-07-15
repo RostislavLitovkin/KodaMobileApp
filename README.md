@@ -1,5 +1,7 @@
-# PlutoFrameworkAppTemplate
-App template for PlutoFramework
+# Koda mobile app  - Proof of concept
+Made with App template for PlutoFramework
+
+Automatically sets public address to Rosťa's address to display Nfts without signing in. Change the line in App.xaml.cs.
 
 ## Setup
 

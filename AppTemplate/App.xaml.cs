@@ -26,6 +26,9 @@ namespace AppTemplate
 
             InitializeComponent();
 
+            // Remove this later
+            Preferences.Set(PreferencesModel.PUBLIC_KEY, "5EU6EyEq6RhqYed1gCYyQRVttdy6FC9yAtUUGzPe3gfpFX8y");
+
             if (!KeysModel.HasSubstrateKey())
             {
                 MainPage = new SetupPasswordPage

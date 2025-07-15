@@ -24,6 +24,12 @@
             </settings:GenericButton.GestureRecognizers>
         </settings:GenericButton>
 
+        <settings:GenericButton Title="Use Rosťa's address">
+            <settings:GenericButton.GestureRecognizers>
+                <TapGestureRecognizer Tapped="UseRostasAddress" />
+            </settings:GenericButton.GestureRecognizers>
+        </settings:GenericButton>
+
         <settings:GenericButton Title="Credits">
             <settings:GenericButton.GestureRecognizers>
                 <TapGestureRecognizer Command="{Binding CreditsCommand}" />
